@@ -14,6 +14,7 @@
 		1AD9BB662B6D37100081CA95 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD9BB652B6D37100081CA95 /* Lottie */; };
 		1AD9BB682B6D37450081CA95 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9BB672B6D37450081CA95 /* LottieView.swift */; };
 		1AD9BB6B2B6D3B060081CA95 /* Animation - 1706885946114.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */; };
+		1AD9BB6D2B6D3B740081CA95 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9BB6C2B6D3B740081CA95 /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1AD9BB622B6D33970081CA95 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		1AD9BB672B6D37450081CA95 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706885946114.json"; sourceTree = "<group>"; };
+		1AD9BB6C2B6D3B740081CA95 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		1AD9BB602B6D33720081CA95 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1AD9BB6C2B6D3B740081CA95 /* FavouriteAnimation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD9BB6D2B6D3B740081CA95 /* FavouriteAnimation.swift in Sources */,
 				1AD9BB532B6D31570081CA95 /* LottieAnimationsListApp.swift in Sources */,
 				1AD9BB632B6D33970081CA95 /* AnimationsListView.swift in Sources */,
 				1AD9BB682B6D37450081CA95 /* LottieView.swift in Sources */,
