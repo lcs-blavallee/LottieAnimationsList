@@ -13,6 +13,7 @@
 		1AD9BB632B6D33970081CA95 /* AnimationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9BB622B6D33970081CA95 /* AnimationsListView.swift */; };
 		1AD9BB662B6D37100081CA95 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 1AD9BB652B6D37100081CA95 /* Lottie */; };
 		1AD9BB682B6D37450081CA95 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9BB672B6D37450081CA95 /* LottieView.swift */; };
+		1AD9BB6B2B6D3B060081CA95 /* Animation - 1706885946114.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1AD9BB592B6D315A0081CA95 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1AD9BB622B6D33970081CA95 /* AnimationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsListView.swift; sourceTree = "<group>"; };
 		1AD9BB672B6D37450081CA95 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706885946114.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		1AD9BB512B6D31570081CA95 /* LottieAnimationsList */ = {
 			isa = PBXGroup;
 			children = (
+				1AD9BB692B6D3AEF0081CA95 /* Animations */,
 				1AD9BB612B6D337B0081CA95 /* Views */,
 				1AD9BB602B6D33720081CA95 /* Models */,
 				1AD9BB522B6D31570081CA95 /* LottieAnimationsListApp.swift */,
@@ -86,6 +89,14 @@
 				1AD9BB672B6D37450081CA95 /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		1AD9BB692B6D3AEF0081CA95 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			files = (
 				1AD9BB5A2B6D315A0081CA95 /* Preview Assets.xcassets in Resources */,
 				1AD9BB572B6D315A0081CA95 /* Assets.xcassets in Resources */,
+				1AD9BB6B2B6D3B060081CA95 /* Animation - 1706885946114.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
