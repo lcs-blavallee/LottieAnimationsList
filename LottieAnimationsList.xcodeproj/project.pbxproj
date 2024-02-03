@@ -15,6 +15,7 @@
 		1AD9BB682B6D37450081CA95 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9BB672B6D37450081CA95 /* LottieView.swift */; };
 		1AD9BB6B2B6D3B060081CA95 /* Animation - 1706885946114.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */; };
 		1AD9BB6D2B6D3B740081CA95 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD9BB6C2B6D3B740081CA95 /* FavouriteAnimation.swift */; };
+		1AD9BB6F2B6E81700081CA95 /* Animation - 1706969538968.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AD9BB6E2B6E81700081CA95 /* Animation - 1706969538968.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1AD9BB672B6D37450081CA95 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706885946114.json"; sourceTree = "<group>"; };
 		1AD9BB6C2B6D3B740081CA95 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
+		1AD9BB6E2B6E81700081CA95 /* Animation - 1706969538968.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1706969538968.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +61,10 @@
 		1AD9BB512B6D31570081CA95 /* LottieAnimationsList */ = {
 			isa = PBXGroup;
 			children = (
+				1AD9BB522B6D31570081CA95 /* LottieAnimationsListApp.swift */,
 				1AD9BB692B6D3AEF0081CA95 /* Animations */,
 				1AD9BB612B6D337B0081CA95 /* Views */,
 				1AD9BB602B6D33720081CA95 /* Models */,
-				1AD9BB522B6D31570081CA95 /* LottieAnimationsListApp.swift */,
 				1AD9BB562B6D315A0081CA95 /* Assets.xcassets */,
 				1AD9BB582B6D315A0081CA95 /* Preview Content */,
 			);
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1AD9BB6A2B6D3B060081CA95 /* Animation - 1706885946114.json */,
+				1AD9BB6E2B6E81700081CA95 /* Animation - 1706969538968.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD9BB6F2B6E81700081CA95 /* Animation - 1706969538968.json in Resources */,
 				1AD9BB5A2B6D315A0081CA95 /* Preview Assets.xcassets in Resources */,
 				1AD9BB572B6D315A0081CA95 /* Assets.xcassets in Resources */,
 				1AD9BB6B2B6D3B060081CA95 /* Animation - 1706885946114.json in Resources */,

@@ -20,4 +20,12 @@ let favourites = [
 
     FavouriteAnimation(fileName: "Animation - 1706885946114",
                        description: "Middle Finger")
+    
+    ,
+
+    FavouriteAnimation(fileName: "Animation - 1706969538968",
+                       description: "Investing")
+    
+    ,
 ]
+    
